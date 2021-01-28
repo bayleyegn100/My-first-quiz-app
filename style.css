@@ -1,0 +1,137 @@
+*
+body{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+
+}
+.container {
+  width: auto;
+  height: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(231, 220, 220);
+}
+
+#start{
+  font-size: 1.5em;
+  font-weight: bolder;
+  width:150px;
+  height:50px;
+  border : 2px solid rgb(250, 248, 248);
+  text-align: center;
+  cursor: pointer;
+  color : rgb(151, 93, 185);
+}
+
+#start:hover{
+  border: 3px solid lightseagreen;
+  color : lightseagreen;
+}
+
+#header, #quiz, #initialsCard, #scoreCard {
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content:center;
+}
+
+.choice{
+  display: inline-block;
+  width : 145px;
+  text-align: center;
+  border : 1px solid grey;
+  border-radius: 5px;
+  cursor: auto;
+  padding : 10px;
+}
+
+  
+button {
+  padding: 10px;
+  margin: 24px;
+  cursor: pointer;
+  font-size: 24px;
+  background-color: #247BA0;
+  color: white;
+}
+#question p, p {
+  margin: 45px;
+  padding: 15px;
+  font-size: 1.25em;
+  width: 800px;
+  max-width: 75%
+  }
+#question{
+    widows: 300px;;
+    height : 125px;
+    right:0;
+    top:0;
+    vertical-align: middle;
+}
+#question p, p {
+    margin : 45px;
+    padding : 15px;
+    font-size: 1.25em;
+    width: 800px;
+    max-width: 75%;
+}
+
+#choices{
+    width : auto;
+    right : 0;
+    top : 125px;
+    padding : 100px;
+    
+
+}
+
+button {
+  padding: 10px;
+  margin: 24px;
+  cursor: pointer;
+  font-size: 24px;
+  background-color: #247BA0;
+  color: white;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #eceff1;
+  border-radius: 8px;
+  margin: 30%;
+  margin-top: 80px;
+  padding: 20px;
+  width: 40%;
+  overflow: hidden;
+  position: relative;
+}
+
+  .card::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  
+  .clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  #ititials, .textarea {
+    background-color: #f1f3f4;
+    border-radius: 2px;
+    font-size: 1em;
+    height: 45px;
+    width: auto;
+    line-height: 20px;
+    margin: 0;
+    margin-top: 10px;
+    max-width: 50%;
+    transition-duration: 0.2s, 0.2s;
+    transition-property: background-color, color;
+    transition-timing-function: ease, ease;
+    vertical-align: middle;
+  }
